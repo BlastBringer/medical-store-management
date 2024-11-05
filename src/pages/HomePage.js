@@ -21,7 +21,8 @@ const HomePage = () => {
       <div className="content">
         <h1>Welcome to RR's Pharmacy</h1>
         <button className="login-button" onClick={handleLogin}>
-          Login or Sign Up
+          Login or signup
+          
         </button>
       </div>
     </div>
