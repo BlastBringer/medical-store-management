@@ -12,13 +12,13 @@ const LoginPage = ({ onLogin }) => {
         
         if (username.toLowerCase() === "employee") {
             onLogin("employee");
-            navigate("/employee-dashboard"); // Redirect to employee dashboard
+            navigate("/EmployeeManagement"); // Redirect to employee dashboard
         } else if (username.toLowerCase() === "customer") {
             onLogin("customer");
-            navigate("/customer-dashboard"); // Redirect to customer dashboard
+            navigate("/CustomerManagement"); // Redirect to customer dashboard
         } else {
             onLogin("customer"); // Default role
-            navigate("/customer-dashboard"); // Redirect to customer dashboard by default
+            navigate("/CustomerManagement"); // Redirect to customer dashboard by default
         }
     };
 
